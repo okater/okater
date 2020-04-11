@@ -1146,6 +1146,18 @@ button,
       .button:hover:active:after {
         opacity: 0.1; }
 
+.cert {
+  width: 80%; }
+  @media screen and (max-width: 980px) {
+    .cert {
+      width: 90%; } }
+  @media screen and (max-width: 736px) {
+    .cert {
+      width: 95%; } }
+  @media screen and (max-width: 480px) {
+    .cert {
+      width: 100%; } }
+
 /* Features */
 .features {
   display: -moz-flex;
