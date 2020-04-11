@@ -13,10 +13,26 @@
 		border: solid 1px _palette(border);
 		background: _palette(border-bg);
 		margin: 0 0 _size(element-margin) 0;
+		/*
+		display: flex;
+		flex-wrap: wrap;
+		border: solid 1px _palette(border);
+		*/
 
 		section {
 			@include padding(3em, 3em, (0.5em, 0, 0, 4em));
 			width: 50%;
+
+			/*
+			padding: 3rem;
+			width: 25%;
+			display: flex;
+			gap: 1rem;
+			flex-direction: column;
+			align-items: center;
+			justify-content: end;
+			*/
+
 			border-top: solid 1px _palette(border);
 			position: relative;
 
@@ -34,11 +50,15 @@
 					'transform #{_duration(activation) * 0.5} ease'
 				));
 				@include vendor('transition-delay', '1s');
-				@include vendor('transform', 'scale(1)');
+				@include vendor('transform', 'scale(1.25)');
 				position: absolute;
 				left: 3em;
 				top: 3em;
 				opacity: 1;
+
+				&::before {
+					font-size: 1.35rem;
+				}
 			}
 
 			@for $i from 1 through _misc(max-features) {
