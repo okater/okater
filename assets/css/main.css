@@ -240,6 +240,16 @@ hr {
 .align-right {
   text-align: right; }
 
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 2px solid;
+  overflow: hidden;
+  display: inline-block; }
+  .avatar img {
+    width: 100%; }
+
 /* Row */
 .row {
   display: flex;
@@ -2479,10 +2489,12 @@ table {
   background-image: url("images/intro.svg");
   background-position: top right;
   background-repeat: no-repeat;
-  background-size: 100% 100%; }
+  background-size: 100% 100%;
+  background-image: url("images/intro.webp"), url("images/intro.svg"); }
   #intro p {
-    font-size: 1.25em; }
-    @media screen and (max-width: 980px) {
+    font-size: 1.25em;
+    color: rgba(255, 255, 255, 0.85); }
+    @media screen and (max-width: 480px) {
       #intro p br {
         display: none; } }
     @media screen and (max-width: 736px) {

@@ -1,0 +1,12 @@
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 2px solid;
+    overflow: hidden;
+    display: inline-block;
+
+    img {
+        width: 100%;
+    }
+}

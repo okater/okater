@@ -13,10 +13,19 @@
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 
+		background-image: /*linear-gradient(
+							to right bottom, 
+							rgba(255, 255, 255, 0.5),
+							rgba(255, 255, 255, 0)
+						  ),*/
+						  url('images/intro.webp'),
+						  url('images/intro.svg');
+
 		p {
 			font-size: 1.25em;
+			color: rgba(255, 255, 255, 0.85);
 
-			@include breakpoint('<=medium') {
+			@include breakpoint('<=xsmall') {
 				br {
 					display: none;
 				}
