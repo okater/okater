@@ -1156,17 +1156,27 @@ button,
       .button:hover:active:after {
         opacity: 0.1; }
 
-.cert {
-  width: 80%; }
+.certificates {
+  display: flex; }
   @media screen and (max-width: 980px) {
-    .cert {
-      width: 90%; } }
-  @media screen and (max-width: 736px) {
-    .cert {
-      width: 95%; } }
-  @media screen and (max-width: 480px) {
-    .cert {
-      width: 100%; } }
+    .certificates {
+      flex-direction: column; } }
+
+.cert {
+  width: 95%;
+  /*
+    width: 90%;
+
+    @include breakpoint('<=medium') {
+        width: 90%;
+    }
+    @include breakpoint('<=small') {
+        width: 95%;
+    }
+    @include breakpoint('<=xsmall') {
+        width: 100%;
+    }
+    */ }
 
 /* Features */
 .features {

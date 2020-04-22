@@ -1,5 +1,15 @@
+.certificates {
+    display: flex;
+
+    @include breakpoint('<=medium') {
+        flex-direction: column;
+    }
+}
+
 .cert {
-    width: 80%;
+    width: 95%;
+    /*
+    width: 90%;
 
     @include breakpoint('<=medium') {
         width: 90%;
@@ -10,4 +20,5 @@
     @include breakpoint('<=xsmall') {
         width: 100%;
     }
+    */
 }
