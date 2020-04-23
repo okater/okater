@@ -1926,7 +1926,7 @@ header h6 + p {
       top: 0;
       width: 100%; }
   .spotlights > section > .content {
-    padding: 4em 5em 2em 5em ;
+    padding: 2em 5em 0.1em 5em ;
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
@@ -1975,7 +1975,7 @@ header h6 + p {
     opacity: 0; }
   @media screen and (max-width: 1680px) {
     .spotlights > section > .content {
-      padding: 4em 4em 2em 4em ; } }
+      padding: 2em 4em 0.1em 4em ; } }
   @media screen and (max-width: 980px) {
     .spotlights > section {
       display: block; }
@@ -1995,7 +1995,7 @@ header h6 + p {
       height: 50vh;
       min-height: 15em; }
     .spotlights > section > .content {
-      padding: 3em 2em 1em 2em ; } }
+      padding: 2em 2em 0.1em 2em ; } }
 
 /* Table */
 .table-wrapper {
