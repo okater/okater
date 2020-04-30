@@ -18,4 +18,12 @@ $message .= "</table>";
 $message .= '<strong>Message:</strong> ' .strip_tags($_POST(['message']));
 $message .= "</body></html>";
 
+$retval = mail ($to,$subject,$message,$headers);
+         
+if( $retval == true ) {
+    echo "Message sent successfully...";
+} else {
+    echo "Message could not be sent...";
+}
+
 ?>
