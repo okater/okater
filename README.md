@@ -2,9 +2,9 @@
 
 Welcome to my GitHub page
 
-I am Salesforce Commerce Cloud Developer (SFCC, Demandware, B2C eCommerce)
+I am Salesforce Commerce Cloud TechLead (SFCC, Demandware, B2C eCommerce)
 
-I am former Frontend developer and deployed my first website in 2008
+I am former web developer and deployed my first website in 2008
 
 You can check out my projects live at www.okater.com
 
